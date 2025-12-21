@@ -1,0 +1,6 @@
+.panel {
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 30px;
+  flex: 1;
+}
