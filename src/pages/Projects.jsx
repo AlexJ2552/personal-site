@@ -1,25 +1,40 @@
 import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation'; 
+import Panel from '../components/Panel';
 
-function AboutMe() {
+function Projects() {
   return (
     <>
       <Navigation />
       
       <h1>Projects</h1>
       
-      <div className="page-content">
-        <p>This is where you'll add your personal background, interests, and introduction.</p>
-        <p>You can include information about:</p>
-        <ul>
-          <li>Your background and education</li>
-          <li>Personal interests and hobbies</li>
-          <li>What drives you in your career</li>
-          <li>Fun facts about yourself</li>
-        </ul>
+      <div className="panels-container">
+
+        <a href="https://www.google.com/search?q=general+ledger+project" target="_blank" rel="noopener noreferrer">
+          <Panel title="General Ledger">
+            Here is a link to my general ledger project.
+            Not yet finished.  
+          </Panel>
+        </a>
+
+        <a href="https://www.google.com/search?q=algo+trading+project" target="_blank" rel="noopener noreferrer">
+          <Panel title="Algo trading">
+            Here is a link to my Algo trading project.
+            Not yet finished.  
+          </Panel>
+        </a>
+
+        <a href="https://www.google.com/search?q=unity+games+project" target="_blank" rel="noopener noreferrer">
+          <Panel title="Unity Games">
+            Here is a link to my Unity games project.
+            Not yet finished.  
+          </Panel>
+        </a>
+
       </div>
     </>
   );
 }
 
-export default AboutMe;
+export default Projects;

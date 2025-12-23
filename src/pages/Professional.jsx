@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 
-function AboutMe() {
+function Professional() {
   return (
     <>
       <Navigation />
@@ -23,4 +23,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default Professional;
