@@ -12,18 +12,22 @@ function App() {
 
       <div className="panels-container">
 
+        <Panel title="About Me">
+          General, backround, intrests, introduction  
+        </Panel>
+
         <Panel title="Projects">
-          Algo trading, Unity, Web apps
+          GL, Algo trading, Unity Games, Web apps
         </Panel>
 
-        <Panel title="Resume">
-          View my experience and skills
-        </Panel>
-
-        <Panel title="Experiments">
-          Ledger, dashboards, research
+        <Panel title="Resume/Experience">
+          CV, Experience, Qualifications, Skills
         </Panel>
         
+        <Panel title="Contact Me">
+          Email, LinkedIn, Github, Contact Me Form
+        </Panel>
+
       </div>
     </>
   );
