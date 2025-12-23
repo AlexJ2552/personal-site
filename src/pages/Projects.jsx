@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom';
+import Navigation from '../components/Navigation'; 
 
 function AboutMe() {
   return (
     <>
-      <nav>
-        <Link to="/personal-site/">← Back to Home</Link>
-      </nav>
+      <Navigation />
       
       <h1>Projects</h1>
       
