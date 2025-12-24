@@ -18,25 +18,25 @@ function Home() {
       <div className="panels-container">
 
         <Link to="/personal-site/about">
-          <Panel title="About Me">
-            General, backround, intrests, introduction  
+          <Panel title="About Me" icon="👨‍💻" color="primary">
+            General, background, interests, introduction  
           </Panel>
         </Link>
 
         <Link to="/personal-site/projects">
-          <Panel title="Projects">
+          <Panel title="Projects" icon="🚀" color="accent">
             GL, Algo trading, Unity Games, Web apps
           </Panel>
         </Link>
 
         <Link to="/personal-site/professional">
-          <Panel title="Professional Skills & Experience">
+          <Panel title="Professional Skills" icon="💼" color="secondary">
             CV, Experience, Qualifications, Skills
           </Panel>
         </Link>
 
         <Link to="/personal-site/contact">
-          <Panel title="Contact Me">
+          <Panel title="Contact Me" icon="📧" color="success">
             Email, LinkedIn, Github, Contact Me Form
           </Panel>
         </Link>

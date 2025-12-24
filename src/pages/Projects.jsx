@@ -11,22 +11,22 @@ function Projects() {
       
       <div className="panels-container">
 
-        <a href="https://www.google.com/search?q=general+ledger+project" target="_blank" rel="noopener noreferrer">
-          <Panel title="General Ledger">
+        <a href="https://www.google.com/search?q=put+link+to+general+ledger+project+here+:)" target="_blank" rel="noopener noreferrer">
+          <Panel title="General Ledger" icon="👨‍💻" color="primary">
             Here is a link to my general ledger project.
             Not yet finished.  
           </Panel>
         </a>
 
-        <a href="https://www.google.com/search?q=algo+trading+project" target="_blank" rel="noopener noreferrer">
-          <Panel title="Algo trading">
+        <a href="https://www.google.com/search?q=put+link+to+algo+trading+project+here+:)" target="_blank" rel="noopener noreferrer">
+          <Panel title="Algo trading" icon="🚀" color="accent">
             Here is a link to my Algo trading project.
             Not yet finished.  
           </Panel>
         </a>
 
-        <a href="https://www.google.com/search?q=unity+games+project" target="_blank" rel="noopener noreferrer">
-          <Panel title="Unity Games">
+        <a href="https://www.google.com/search?q=put+link+to+unity+games+project+here+:)" target="_blank" rel="noopener noreferrer">
+          <Panel title="Unity Games" icon="💼" color="secondary">
             Here is a link to my Unity games project.
             Not yet finished.  
           </Panel>
